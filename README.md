@@ -15,7 +15,7 @@ these as attributes on a message.
 Cloud Pub/Sub does not allow any message to be larger than 10MB. Therefore, if
 your Kafka topic has messages that are larger than this, the connector cannot be
 used. Consider setting message.max.bytes on your broker to ensure that no
-messages will be larger than that limit.
+message will be larger than that limit.
 
 ### Building
 
